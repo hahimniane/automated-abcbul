@@ -86,11 +86,6 @@ class SignupPageScreenState extends State<SignupPageScreen> {
                             ),
                             hintText: "msg_city_state_or_zip".tr,
                             items: signupPageModelObj?.dropdownItemList ?? [],
-                            onChanged: (value) {
-                              context
-                                  .read<SignupPageProvider>()
-                                  .onSelected(value);
-                            },
                           );
                         },
                       ),

@@ -49,13 +49,6 @@ class ImageConstant {
 
   static String imgDepth3Frame06 = '$imagePath/img_depth_3_frame_0_6.png';
 
-  // proposals page images
-  static String imgDepth3Frame07 = '$imagePath/img_depth_3_frame_0_7.png';
-
-  static String imgDepth3Frame08 = '$imagePath/img_depth_3_frame_0_8.png';
-
-  static String imgDepth3Frame09 = '$imagePath/img_depth_3_frame_0_9.png';
-
   // accepted jobs page images
   static String imgDepth5Frame01 = '$imagePath/img_depth_5_frame_0_1.png';
 
@@ -66,6 +59,17 @@ class ImageConstant {
   // review page images
   static String imgDepth5Frame0Onprimary =
       '$imagePath/img_depth_5_frame_0_onprimary.svg';
+
+  // new proposal page images
+  static String imgNavJobsPrimarycontainer =
+      '$imagePath/img_nav_jobs_primarycontainer.svg';
+
+  static String imgNavProposalsOnprimary =
+      '$imagePath/img_nav_proposals_onprimary.svg';
+
+  static String imgNavMyJobs = '$imagePath/img_nav_my_jobs.svg';
+
+  static String imgNavChat = '$imagePath/img_nav_chat.svg';
 
   // Common images
   static String imgDepth3Frame2 = '$imagePath/img_depth_3_frame_2.svg';
@@ -87,6 +91,12 @@ class ImageConstant {
 
   static String imgDepth3Frame2Onprimary =
       '$imagePath/img_depth_3_frame_2_onprimary.svg';
+
+  static String imgDepth3Frame07 = '$imagePath/img_depth_3_frame_0_7.png';
+
+  static String imgDepth3Frame08 = '$imagePath/img_depth_3_frame_0_8.png';
+
+  static String imgDepth3Frame09 = '$imagePath/img_depth_3_frame_0_9.png';
 
   static String imageNotFound = 'assets/images/image_not_found.png';
 }

@@ -109,6 +109,12 @@ class AppNavigationScreenState extends State<AppNavigationScreen> {
                           onTapScreenTitle: () => onTapScreenTitle(
                               AppRoutes.logoutConfirmationScreen),
                         ),
+                        _buildScreenTitle(
+                          context,
+                          screenTitle: "new proposal page".tr,
+                          onTapScreenTitle: () =>
+                              onTapScreenTitle(AppRoutes.newProposalPageScreen),
+                        ),
                       ],
                     ),
                   ),

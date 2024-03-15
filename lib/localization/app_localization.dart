@@ -1,7 +1,7 @@
 import 'en_us/en_us_translations.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/cupertino.dart';
-import '../core/app_export.dart';
+import 'package:abcbul/core/utils/navigator_service.dart';
 
 class AppLocalization {
   AppLocalization(this.locale);
@@ -16,6 +16,7 @@ class AppLocalization {
   }
 
   static List<String> languages() => _localizedValues.keys.toList();
+
   String getString(String text) =>
       _localizedValues[locale.languageCode]![text] ?? text;
 }

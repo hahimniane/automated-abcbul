@@ -69,7 +69,6 @@ final Map<String, String> enUs = {
   "lbl_english": "English",
   "lbl_joined_in_2019": "Joined in 2019",
   "lbl_languages": "Languages",
-  "lbl_profile": "Profile",
   "lbl_pst": "PST",
   "lbl_samantha_hall": "Samantha Hall",
   "lbl_sign_out": "Sign Out",
@@ -112,20 +111,12 @@ final Map<String, String> enUs = {
       "You're so inspiring! Your fitness journey has motivated me to start!",
 
   // proposals page Screen
-  "lbl_not_viewed_yet": "Not viewed yet",
   "lbl_sent_1_day_ago": "Sent 1 day ago",
   "lbl_sent_5_days_ago": "Sent 5 days ago",
-  "lbl_viewed": "Viewed",
   "msg_1_of_4_steps_completed": "1 of 4 steps completed",
-  "msg_2_of_4_steps_completed": "2 of 4 steps completed",
-  "msg_3_of_3_steps_completed": "3 of 3 steps completed",
-  "msg_senior_product_designer": "Senior Product Designer",
-  "msg_senior_ui_ux_designer": "Senior UI/UX Designer",
-  "msg_senior_ux_ui_designer": "Senior UX/UI Designer",
   "msg_sent_4_hours_ago": "Sent 4 hours ago",
 
   // accepted jobs page Screen
-  "lbl_my_jobs": "My Jobs",
   "msg_2_days_left_to_start": "2 days left to start",
   "msg_5_days_left_to_start": "5 days left to start",
   "msg_7_days_left_to_start": "7 days left to start",
@@ -178,9 +169,32 @@ final Map<String, String> enUs = {
   "msg_you_re_about_to":
       "You're about to log out of your account. You will no longer receive any notifications for the jobs or bids.",
 
+  // new proposal page Screen
+  "lbl_accept": "Accept",
+  "lbl_chat": "Chat",
+  "lbl_decline": "Decline",
+  "msg_bid_amount_1000": "Bid Amount: \$1000",
+  "msg_bid_amount_1200": "Bid Amount: \$1200",
+  "msg_bid_amount_800": "Bid Amount: \$800",
+  "msg_date_10_12_2022": "Date: 10/12/2022",
+  "msg_date_11_12_2022": "Date: 11/12/2022",
+  "msg_date_12_12_2022": "Date: 12/12/2022",
+
   // Common String
-  "lbl_jobs": "Jobs", "lbl_logout": "Logout", "lbl_password": "Password",
-  "lbl_proposals": "Proposals", "lbl_username": "Username",
+  "lbl_jobs": "Jobs",
+  "lbl_logout": "Logout",
+  "lbl_my_jobs": "My Jobs",
+  "lbl_not_viewed_yet": "Not viewed yet",
+  "lbl_password": "Password",
+  "lbl_profile": "Profile",
+  "lbl_proposals": "Proposals",
+  "lbl_username": "Username",
+  "lbl_viewed": "Viewed",
+  "msg_2_of_4_steps_completed": "2 of 4 steps completed",
+  "msg_3_of_3_steps_completed": "3 of 3 steps completed",
+  "msg_senior_product_designer": "Senior Product Designer",
+  "msg_senior_ui_ux_designer": "Senior UI/UX Designer",
+  "msg_senior_ux_ui_designer": "Senior UX/UI Designer",
 
 // Network Error String
   "msg_network_err": "Network Error",

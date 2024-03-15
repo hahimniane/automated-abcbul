@@ -10,6 +10,7 @@ import '../presentation/accepted_jobs_page_screen/accepted_jobs_page_screen.dart
 import '../presentation/subscription_expired_page_screen/subscription_expired_page_screen.dart';
 import '../presentation/review_page_screen/review_page_screen.dart';
 import '../presentation/logout_confirmation_screen/logout_confirmation_screen.dart';
+import '../presentation/new_proposal_page_screen/new_proposal_page_screen.dart';
 import '../presentation/app_navigation_screen/app_navigation_screen.dart';
 
 class AppRoutes {
@@ -44,6 +45,8 @@ class AppRoutes {
 
   static const String logoutConfirmationScreen = '/logout_confirmation_screen';
 
+  static const String newProposalPageScreen = '/new_proposal_page_screen';
+
   static const String appNavigationScreen = '/app_navigation_screen';
 
   static const String initialRoute = '/initialRoute';
@@ -60,6 +63,7 @@ class AppRoutes {
         subscriptionExpiredPageScreen: SubscriptionExpiredPageScreen.builder,
         reviewPageScreen: ReviewPageScreen.builder,
         logoutConfirmationScreen: LogoutConfirmationScreen.builder,
+        newProposalPageScreen: NewProposalPageScreen.builder,
         appNavigationScreen: AppNavigationScreen.builder,
         initialRoute: LoginPageScreen.builder
       };
