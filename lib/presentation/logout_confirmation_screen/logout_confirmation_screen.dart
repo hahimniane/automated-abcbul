@@ -118,7 +118,7 @@ class LogoutConfirmationScreenState extends State<LogoutConfirmationScreen> {
                 decoration: AppDecoration.fillGray,
                 child: Text(
                   "lbl_cancel".tr,
-                  style: CustomTextStyles.titleMediumBold_1,
+                  style: CustomTextStyles.titleMediumBold_2,
                 ),
               ),
             ),

@@ -3,6 +3,9 @@ import 'package:abcbul/core/app_export.dart';
 
 class AppDecoration {
   // Fill decorations
+  static BoxDecoration get fillErrorContainer => BoxDecoration(
+        color: theme.colorScheme.errorContainer,
+      );
   static BoxDecoration get fillGray => BoxDecoration(
         color: appTheme.gray900,
       );
@@ -12,12 +15,24 @@ class AppDecoration {
   static BoxDecoration get fillSecondaryContainer => BoxDecoration(
         color: theme.colorScheme.secondaryContainer,
       );
+
+  // Outline decorations
+  static BoxDecoration get outlineErrorContainer => BoxDecoration(
+        color: theme.colorScheme.onPrimaryContainer,
+        border: Border.all(
+          color: theme.colorScheme.errorContainer,
+          width: 1.h,
+        ),
+      );
 }
 
 class BorderRadiusStyle {
   // Circle borders
   static BorderRadius get circleBorder28 => BorderRadius.circular(
         28.h,
+      );
+  static BorderRadius get circleBorder4 => BorderRadius.circular(
+        4.h,
       );
   static BorderRadius get circleBorder64 => BorderRadius.circular(
         64.h,
@@ -26,6 +41,9 @@ class BorderRadiusStyle {
   // Rounded borders
   static BorderRadius get roundedBorder12 => BorderRadius.circular(
         12.h,
+      );
+  static BorderRadius get roundedBorder8 => BorderRadius.circular(
+        8.h,
       );
 }
 

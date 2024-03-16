@@ -111,9 +111,15 @@ class AppNavigationScreenState extends State<AppNavigationScreen> {
                         ),
                         _buildScreenTitle(
                           context,
-                          screenTitle: "new proposal page".tr,
+                          screenTitle: "Accept proposal page".tr,
+                          onTapScreenTitle: () => onTapScreenTitle(
+                              AppRoutes.acceptProposalPageScreen),
+                        ),
+                        _buildScreenTitle(
+                          context,
+                          screenTitle: "view bids page".tr,
                           onTapScreenTitle: () =>
-                              onTapScreenTitle(AppRoutes.newProposalPageScreen),
+                              onTapScreenTitle(AppRoutes.viewBidsPageScreen),
                         ),
                       ],
                     ),
