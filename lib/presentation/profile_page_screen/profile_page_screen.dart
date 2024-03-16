@@ -240,7 +240,7 @@ class ProfilePageScreenState extends State<ProfilePageScreen> {
           decoration: AppDecoration.fillGray,
           child: Text(
             "lbl_delete_account".tr,
-            style: CustomTextStyles.titleMediumBold_1,
+            style: CustomTextStyles.titleMediumBold_2,
           ),
         ),
       ),
